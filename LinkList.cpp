@@ -10,7 +10,7 @@ LinkList Init_List()//初始化单链表
 {
 	
 	Node *L;
-	L = (LinkList)malloc(sizeof(Node));//强制类型转换
+	L = (LinkList)malloc(sizeof(Node));
 	if (L == NULL)
 	{
 		printf("初始化失败!\n");
